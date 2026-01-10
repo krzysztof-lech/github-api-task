@@ -28,8 +28,8 @@ Integration tests:
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
-cd github-api
+git clone https://github.com/krzysztof-lech/github-api-task.git
+cd github-api-task
 ```
 
 2. Build the project
