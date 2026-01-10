@@ -27,21 +27,26 @@ Integration tests:
 
 1. Clone the repository:
 
-```bash
+```cmd
 git clone https://github.com/krzysztof-lech/github-api-task.git
 cd github-api-task
 ```
 
 2. Build the project
 
-```bash
-mvn clean install
+```cmd
+
+mvnw.cmd clean install    # Windows
+
+./mvnw clean install      # Linux / macOS
 ```
 
 3. Run the application
 
-```bash
-mvn spring-boot:run
+```cmd
+mvnw.cmd spring-boot:run  #Windows
+
+./mvnw spring-boot:run    #Linux / macOS
 ```
 The API will start on http://localhost:8080.
 
@@ -87,6 +92,8 @@ User Not Found Response:
 
 Integration tests use WireMock to simulate GitHub API.
 Run tests with:
-```bash
-mvn test
+```cmd
+mvnw.cmd test      # Windows
+
+./mvnw test        # Linux / macOS
 ```
