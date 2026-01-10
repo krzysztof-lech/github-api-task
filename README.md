@@ -44,9 +44,9 @@ mvnw.cmd clean install    # Windows
 3. Run the application
 
 ```cmd
-mvnw.cmd spring-boot:run  #Windows
+mvnw.cmd spring-boot:run  # Windows
 
-./mvnw spring-boot:run    #Linux / macOS
+./mvnw spring-boot:run    # Linux / macOS
 ```
 The API will start on http://localhost:8080.
 
